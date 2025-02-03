@@ -11,7 +11,7 @@ const OrderTrackingScreen = ({ order }) => {
   }, [order]);
 
   const fetchAd = async (category) => {
-    const response = await fetch(`https://your-backend-api/ads?category=${category}`);
+    const response = await fetch(`https://test-g078tgt5p-karthikbhat-technomerscs-projects.vercel.app`);
     return response.json();
   };
 
